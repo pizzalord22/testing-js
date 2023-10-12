@@ -9,7 +9,7 @@ let borderMessage = '#000000';
 let carimboHora = "nao";
 
 //------------------------------ NAME COLORS -------------------------------//
-const roles = new Map();
+const roles = new Map(); //skips first message for some god damned reason lol [OKAY FINE ONLY SOMETIMES]
 
 roles.set("broadcaster", "#753fbf");
 roles.set("moderator", "#299134");
@@ -241,6 +241,7 @@ function addMessage(username, message, badges, userId, msgId, color, isAction) {
     let textFooter = `<div class="message">
       <div class="container-message ${actionClass}" style="border: 2px solid ${borderMessage};">
         ${message}
+        <img style="width: 5px; height: 5px;" src="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/egg-icon.png">
         ${hora}
       </div>
     </div>
@@ -250,6 +251,7 @@ function addMessage(username, message, badges, userId, msgId, color, isAction) {
         textFooter = `<div class="message">
       <div class="container-message gay ${actionClass}" style="border: 2px solid ${borderMessage};">
         ${message}
+        <img style="width: 5px; height: 5px;" src="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/egg-icon.png">
         ${hora}
       </div>
     </div>
