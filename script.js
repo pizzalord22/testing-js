@@ -9,7 +9,7 @@ let borderMessage = '#000000';
 let carimboHora = "nao";
 
 //------------------------------ NAME COLORS -------------------------------//
-const roles = new Map(); //skips first message for some god damned reason lol [OKAY FINE ONLY SOMETIMES]
+const roles = new Map();
 
 roles.set("broadcaster", "#753fbf");
 roles.set("moderator", "#299134");
