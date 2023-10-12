@@ -110,7 +110,7 @@ window.addEventListener("onEventReceived", function (obj) {
                                 },
                             ],
                             channel: channelName,
-                            text: "Hello! This is a gay test message. Congratulations, everything is working fine Kappa, promotion channel, viewers, followers, views, price",
+                            text: "Hello! This is a gay test message. Congratulations, everything is working fine Kappa",
                             isAction: !1,
                             emotes: [
                                 {
